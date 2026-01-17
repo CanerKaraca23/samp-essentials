@@ -1,4 +1,4 @@
-Silent's ASI Loader 1.3
+Silent's ASI Loader 1.5
 
 
 DESCRIPTION
@@ -8,6 +8,7 @@ DESCRIPTION
 
 	*	Increased compatibility - all current loaders share a flaw, which sometimes results in a plugin loading failure. This loader uses a brand new
 		loading method developed by NTAuthority, which makes it work all the time.
+	*	Added sorting of ASI plugins by their name. Plugins will be loaded in order according to their names. Feature added by fastman92.
 	*	Compatible with 3.0 (old Steam) and new Steam Executables.
 	*	Loads files located in the game root directory and 'scripts' folder (although not all the plugins are guaranteed to work properly when located
 		in the latter!).
@@ -15,6 +16,7 @@ DESCRIPTION
 	*	Has an ability of loading plugins exclusive for specific Executable and/or exclude another plugins from loading on specific Executable.
 	*	Lightweight and fast.
 	*	When an encrypted EXE (like Steam EXE) is used, plugins are loaded after it gets decrypted - no need to wait in the ASI code.
+	*	Added an error reporting, when an ASI file with the same found in more than one directory.
 
 	This loader is also used in Grand Theft Auto: Vice City Stories PC Edition and Vigilante Justice Total Conversions.
 
@@ -43,9 +45,11 @@ CREDITS & LICENSE
 
 	Firstly, thanks to NTAuthority for sharing his code snippet, and also for Stanislav "listener" Golovin for sharing his
 	ASI Loader source, which acted as a base for my version of the tool.
+	Modified by fastman92, added loading of ASI plugins according to their names alphabetically and reporting of ASI files with the same name in more than one directory.
 	As the following tool is open source (source is NOT included in this package), it's under the Silent's License.
 	It means that the source code is for learning purposes, as all source code is. You may only use it for your own projects
 	but NOT to recreate or build on the original work.
+	
 
 
 CONTACT

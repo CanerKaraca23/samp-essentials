@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mode extends="sa" id="sa_sampfuncs" title="GTA SA v1.0 (SAMPFUNCS)" game="sa">
+    <data>@sb:\data\sa_sampfuncs\</data>
+    <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
+    <opcodes>@sb:\data\sa\SASCM.CLEO.ini</opcodes>
+    <opcodes>@sb:\data\sa\SASCM.NewOpcodes.ini</opcodes>
+    <opcodes>@sb:\data\sa\SASCM.CLEO+.ini</opcodes>
+    <opcodes>@sb:\data\sa\SASCM*.ini</opcodes>
+    <opcodes>@sb:\data\sa_sampfuncs\SASCM.SAMPFUNCS.ini</opcodes>
+    <classes>@sb:\data\sa_sampfuncs\classes.db</classes>
+    <examples>@sb:\data\sa_sampfuncs\opcodes.txt</examples>
+    <keywords>@sb:\data\sa_sampfuncs\keywords.txt</keywords>
+    <library>@sb:\data\sa_sampfuncs\sa.json</library>
+</mode>
